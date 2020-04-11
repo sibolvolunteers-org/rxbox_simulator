@@ -1,13 +1,13 @@
-# RxBox Telemetry Testing Tool
+# Sample Telemetry Testing Tool
 
 ## Overview
 
 This tool's purpose is to:
 * Simulate multiple FHIR API requests per time interval
 * Loops the dummy observation data with configurable interval
-* Aims to be used for the development of Telemetry Dashboard and Coordinator without the need of manually configuring 20 or more RxBox devices during development phase
+* Aims to be used for the development of a generic telemetry dashboard without the need of manually configuring 20 or more  devices during development phase
 
-![Unit Test Diagram](docs/rxbox_dummy_diagram.png)
+![Unit Test Diagram](docs/dummy_diagram.png)
 
 ## Pre-Requesite
 1. Tested on Ubuntu 18.04 LTS. Will probably work also on other OS that can run NodeJS.
@@ -32,7 +32,7 @@ This tool's purpose is to:
     $ npm start
     ```
 1. Open a separate terminal
-1. Run RxBox Telemetry Testing Tool or dummy RxBox
+1. Run Telemetry Tool or dummy observation acquisition device
     ```
     $ cd rxbox_simulator/src/client
     $ npm install
